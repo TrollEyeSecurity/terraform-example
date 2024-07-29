@@ -10,7 +10,7 @@ resource "aws_instance" "linux-bastion-a" {
     key_name                     = "${var.env.shortname}-us-east-1"
     monitoring                   = true
     tags                         = {
-        "Name"    = upper("Linux-Bastion-Host-A-jenkins slave")
+        "Name"    = upper("Linux-Bastion-Host-A")
         "Purpose" = "jump box"
     }
     tenancy                      = var.tenancy.default
