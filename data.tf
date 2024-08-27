@@ -56,7 +56,7 @@ data "aws_ami" "ccscanner" {
     owners = ["749985416486"]
     filter {
         name = "name"
-        values = ["ccscanner-1719511760"]
+        values = ["ccscanner-1719869458"]
     }
     filter {
         name = "root-device-type"
